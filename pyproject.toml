@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pydata-2024"
+version = "0.1.0"
+description = "PyData 2024"
+authors = ["Gregory Mermoud <gregory.mermoud@hevs.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^1.8.2"
+duckdb = "^1.1.1"
+ipykernel = "^6.29.5"
+pyarrow = "^17.0.0"
+s3fs = "^2024.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
